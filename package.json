@@ -1,0 +1,23 @@
+{
+  "name": "ireactcalc",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "moment": "^2.18.1",
+    "moment-range": "^3.0.3",
+    "numeral": "^2.0.6",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "validator": "^7.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-defaults": "^9.0.0",
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
