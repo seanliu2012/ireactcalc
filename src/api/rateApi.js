@@ -5,7 +5,7 @@ import superGuaranteeRates from './superGuaranteeRates';
 
 class rateApi {
   static getAllIndividualTaxRates() {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       setTimeout(() => {
         resolve(Object.assign([], individualTaxRates));
       }, delay);
@@ -13,7 +13,7 @@ class rateApi {
   }
 
   static getAllSuperGuaranteeRates() {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       setTimeout(() => {
         resolve(Object.assign([], superGuaranteeRates));
       }, delay);

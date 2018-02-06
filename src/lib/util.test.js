@@ -93,7 +93,7 @@ describe('isPercentage()', function () {
   it('returns true with both digits and % sign', function () {
     expect(util.isPercentage(9)).toBe(true);
     expect(util.isPercentage('9')).toBe(true);
-    expect(util.isPercentage('9%')).toBe(true);
+    expect(util.isPercentage('9.5%')).toBe(true);
     expect(util.isPercentage('900%')).toBe(true);
     expect(util.isPercentage(' 900 % ')).toBe(true);
   });
